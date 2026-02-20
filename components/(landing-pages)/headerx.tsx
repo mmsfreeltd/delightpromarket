@@ -11,6 +11,7 @@ import {
   BarChart3,
   Folder,
   Home,
+  User,
 } from 'lucide-react';
 import { SITE_NAME } from '@/global/constants';
 import { usePathname } from 'next/navigation';
@@ -79,6 +80,11 @@ export default function Header() {
       label: 'Terms of Service',
       href: '/terms-of-service',
       icon: Folder,
+    },
+     {
+      label: 'Contact Us',
+      href: '/contact',
+      icon: User,
     },
   ];
   return (

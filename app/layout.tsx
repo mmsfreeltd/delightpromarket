@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from 'sonner';
 import NextTopLoader from 'nextjs-toploader';
 import './globals.css';
+import 'animate.css';
 import { LIVE_CHAT, SITE_NAME } from '@/global/constants';
 import Script from 'next/script';
 

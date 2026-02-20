@@ -442,8 +442,7 @@ export default function ContactUsComponent() {
                 </h3>
                 <p className="text-muted-foreground">
                   Yes, you can schedule a personalized demo with our team.
-                  Simply contact us through the form or email us at
-                  {SITE_EMAIL}
+                  Simply contact us through the form or email us at{' '} {SITE_EMAIL}
                 </p>
               </CardContent>
             </Card>
@@ -455,7 +454,7 @@ export default function ContactUsComponent() {
                 </h3>
                 <p className="text-muted-foreground">
                   For technical issues, please contact our support team at
-                  {SITE_EMAIL} or use the contact form and select Technical
+                  {' '}{SITE_EMAIL} or use the contact form and select Technical
                   Support as the inquiry type.
                 </p>
               </CardContent>
